@@ -14,7 +14,7 @@ To install loadbalanceRL:
     $ virtualenv venv
     $ make install-prod
     $ source venv/bin/activate
-    $ cp -r rainman/loadbalanceRL/etc rainman/venv/lib/python3.6/site-packages/loadbalanceRL-1.0-py3.6.egg/loadbalanceRL
+    $ cp -r loadbalanceRL/etc rainman/venv/lib/python3.6/site-packages/loadbalanceRL-1.0-py3.6.egg/loadbalanceRL
     
   
 Command Line
@@ -62,7 +62,7 @@ To run experiments using Cellular network:
   1) If testing on development cellular network (i.e. --env_type = Dev), first start the development server (in a new terminal    tab), which will instantiate a simulated cellular network.
 
 
-    (venv)$ cd LoadBalance/loadbalanceRL/lib/environment/cellular/dev
+    (venv)$ cd loadbalanceRL/lib/environment/cellular/dev
 
     (venv)$ python server.py
 
@@ -114,11 +114,11 @@ To run experiments using Cellular network:
 
 Sample result plot for NN
 ================================
-![alt text](https://github.com/att-innovate/loadbalanceRL/blob/master/rainman/loadbalanceRL/api/dynamic/Hanfoff.png)
+![alt text](https://github.com/mylzwq/LoadBalanceControl-RL/blob/master/loadbalanceRL/api/dynamic/Hanfoff.png)
 
-![alt text](https://github.com/att-innovate/loadbalanceRL/blob/master/rainman/loadbalanceRL/api/dynamic/Rewards.png)
+![alt text](https://github.com/mylzwq/LoadBalanceControl-RL/blob/master/loadbalanceRL/api/dynamic/Rewards.png)
 
-![alt text](https://github.com/att-innovate/loadbalanceRL/blob/master/rainman/loadbalanceRL/api/dynamic/UE_SLA.png)
+![alt text](https://github.com/mylzwq/LoadBalanceControl-RL/blob/master/loadbalanceRL/api/dynamic/UE_SLA.png)
 
 
 
