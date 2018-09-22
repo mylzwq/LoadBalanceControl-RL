@@ -1,0 +1,31 @@
+# Overrides file
+# These values overrides the constants. Use this file to set runtime values
+
+# Algorithm variables
+episodes: 1
+alpha: 0.5
+gamma: 1.0
+epsilon: 0.2
+epsilon_decay: 0.999
+epsilon_min: 0.01
+learning_rate: 0.005
+l1_hidden_units: 13
+l2_hidden_units: 13
+l1_activation: 'relu'
+l2_activation: 'relu'
+loss_function: 'mean_squared_error'
+optimizer: 'Adam'
+replace_target_iter: 20
+memory_size: 2000
+batch_size: 16
+
+# Debugging flag
+verbose: True
+
+# environment variables
+environment: 'Cellular'
+env_type: 'Dev'
+
+# Cellular env variables
+server: '0.0.0.0'
+server_port: '8000'
