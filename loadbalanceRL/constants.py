@@ -1,11 +1,4 @@
-/*
- * @Author: Ari Saha, Mingyang Liu
- * @Date: 2018-09-19 00:27:56
- * @LastEditors: Mingyang Liu
- * @LastEditTime: 2018-09-19 00:28:34
- * @Description: 
- * @Email: liux3941@umn.edu
- */
+
 #! /usr/bin/env python3
 # -*- coding: utf-8 -*-
 
